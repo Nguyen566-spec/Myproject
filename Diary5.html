@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Duc Nam</title>
+<link rel="stylesheet" href="Calendar.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/boostrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+   <header>
+   <ul>
+    <a href="index.html" class="logo" style="margin-right: 300px;"> <i class="fa fa-calendar"> Ryana Calendars</i></a>
+      <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+      <li><a href="SignIn.html"> <i class="fa fa-user-circle"></i>  Sign In</a></li>
+      <li><a href="AboutUs.html"> <i class="fa fa-user"></i> About Us</a></li>
+      <li><a href="Contact.html"> <span class="far fa-map"></span>  Contact</a></li>
+  </ul>
+</header>
+
+ 
+    <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+            ];
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Orientation: 2,
+                $NoDrag: true
+              }
+            };
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+           
+        };
+    </script>
+    <style>
+       
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .jssora061 {display:block;position:absolute;cursor:pointer;}
+        .jssora061 .a {fill:none;stroke:#fff;stroke-width:360;stroke-linecap:round;}
+        .jssora061:hover {opacity:.8;}
+        .jssora061.jssora061dn {opacity:.5;}
+        .jssora061.jssora061ds {opacity:.3;pointer-events:none;}
+        
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
+   
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="image/xWF-142800_US_Fall_Cold_Weather_2020_CategoryPages_Calendars_Designs_2000x852.jpg.pagespeed.ic.cTQFmI78Xj.jpg" />
+                <div u="thumb">Calendar Products
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="image/WF-103149_US_Spring_2020_Calendars_Embellishments_2000x852.jpg" />
+                <div u="thumb">Calendar Products Model
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="image/bannersale11.webp" />
+                <div u="thumb">Diary Products 
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="image/bannersale10.jpg" />
+                <div u="thumb">Merry Christmas
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="image/bannersale8.jpg" />
+                <div u="thumb">Happy New Years
+                </div>
+            </div>
+        </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">image gallery</a>
+        <div u="thumbnavigator" style="position:absolute;bottom:0px;left:0px;width:980px;height:50px;color:#FFF;overflow:hidden;cursor:default;background-color:rgba(0,0,0,.5);">
+            <div u="slides">
+                <div u="prototype" style="position:absolute;top:0;left:0;width:980px;height:50px;">
+                    <div u="thumbnailtemplate" style="position:absolute;top:0;left:0;width:100%;height:100%;font-family:arial,helvetica,verdana;font-weight:normal;line-height:50px;font-size:16px;padding-left:10px;box-sizing:border-box;"></div>
+                </div>
+            </div>
+        </div>
+        <div data-u="arrowleft" class="jssora061" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <path class="a" d="M11949,1919L5964.9,7771.7c-127.9,125.5-127.9,329.1,0,454.9L11949,14079"></path>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora061" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <path class="a" d="M5869,1919l5984.1,5852.7c127.9,125.5,127.9,329.1,0,454.9L5869,14079"></path>
+            </svg>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();
+    </script>
+
+
+
+<div class="row">
+    <div class="col-md-3">
+      <div class="content-left">
+          <h5 class="title">Categories</h5>
+          <br>
+          <ul class="cate-nav" id="Categories">
+            <li class="far fa-circle fa-lg" style="margin-bottom: 1em;"><a href="Calendar.html">  Calendar</a></li>
+            <li class="far fa-check-circle fa-lg"><a href="Diary.html">   Diary</a></li>
+        </ul>
+        <br>
+        <h5>Filter by price</h5><br>
+        <ul class="price">
+            <li class="far fa-circle fa-lg"><a href="Diary.html">  All Price </a> </li><br><br>
+            <li class="far fa-circle fa-lg"><a href="Diary2.html">  10$-50$ </a></li><br><br>
+            <li class="far fa-circle fa-lg"><a href="Diary3.html">  50$-100$ </a></li><br><br>
+            <li class="far fa-circle fa-lg"><a href="Diary4.html">  100$-150$ </a></li><br><br>
+            <li class="far fa-check-circle fa-lg"><a href="Diary5.html">  150$-200$ </a></li><br><br>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-md-9">
+        <div class="content-right">
+            <h5 class="title">Products: 150$-200$</h5>
+            <table>
+                <tr>
+                    <td>
+                        <div class="card" >
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" data-toggle="modal" data-target="#mymodal5" src="image/diaryproduct13.jpg">
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator grey-text text-darken-4">Thoughts Of <br> Dog A5</span>
+                              <button class="btn btn-danger" data-toggle="modal" data-target="#mymodal">BUY</button>
+                            </div>
+                          </div>
+                          <div class="modal" id="mymodal5">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">  Thoughts Of Dog A5 Diary 2020 - 2021</h5>
+                                </div>
+                                <div class="modal-body">
+                                  <p><span style="font-weight: bold;">CODE</span>: 0005</p>
+                                  <p><span style="font-weight: bold;">Size</span>: 8*4</p>
+                                  <p><span style="font-weight: bold;">Price</span>: 15$</p>
+                                  <p> <span style="font-weight: bold;">Description</span>: <br> Be prepared to have your heart melted by the cutest pooch around in the Thoughts Of Dog A5 Diary for 2020 - 2021! Based on the massively popular @dog_feelings Twitter account by Matt Nelson, this 16-month diary features a week-to-view layout and includes delightful illustrations and sweet, funny reflections on life from the pup-spective of good doggos, who, above all else, love their humans unconditionally.</p>
+                                  <p style="font-weight: bold;">Image Inside: </p>
+                                  <img  src="image/diaryproduct14.jpg" alt="">
+                                  <img src="image/diaryproduct15.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                  <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          </div>
+                    </td>
+                    <td>
+                        <div class="card" >
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" data-toggle="modal" data-target="#mymodal6" src="image/diaryproduct16.jpg">
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator grey-text text-darken-4">Country <br>  Companions </span>
+                              <button class="btn btn-danger" data-toggle="modal" data-target="#mymodal">BUY</button>
+                            </div>
+                          </div>
+                          <div class="modal" id="mymodal6">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">Country  Companions  </h5>
+                                </div>
+                                <div class="modal-body">
+                                  <p><span style="font-weight: bold;">CODE</span>: 0005</p>
+                                  <p><span style="font-weight: bold;">Size</span>: 8*4</p>
+                                  <p><span style="font-weight: bold;">Price</span>: 75$</p>
+                                  <p> <span style="font-weight: bold;">Description</span>: <br> Join your favourite characters such as Ed Hedgehog and Tom Mouse with the Country Companions Slim Diary for 2021. With illustrations throughout and a week-to-view layout, this handy sized diary will keep you smiling as well as organised!.</p>
+                                  <p style="font-weight: bold;">Image Inside: </p>
+                                  <img  src="image/diaryproduct17.jpg" alt="">
+                                  <img src="image/diaryproduct18.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                  <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          </div>
+                    </td>
+                    <td>
+                        <div class="card" >
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" data-toggle="modal" data-target="#mymodal7" src="image/diaryproduct19.jpg">
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator grey-text text-darken-4">Disney Winnie <br> The Pooh</span>
+                              <button class="btn btn-danger" data-toggle="modal" data-target="#mymodal">BUY</button>
+                            </div>
+                          </div>
+                          <div class="modal" id="mymodal7">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">Disney Winnie The Pooh</h5>
+                                </div>
+                                <div class="modal-body">
+                                  <p><span style="font-weight: bold;">CODE</span>: 0005</p>
+                                  <p><span style="font-weight: bold;">Size</span>: 8*4</p>
+                                  <p><span style="font-weight: bold;">Price</span>: 75$</p>
+                                  <p> <span style="font-weight: bold;">Description</span>: <br> Everyone knows the tiger, 'Tigger' who is a friend of the famous Winnie The Pooh. Created by A.A. Milne and is known for his colourful orange and black stripes, large eyes, a long chin and a springy tail. Not forgetting his love for bouncing and his catchphrase is 'Bouncing is what Tiggers do best.' This Disney Winnie The Pooh, Tigger Official Slim Diary is a must-have for fans of this bouncy trouncy tiger! Bold and colourful illustrations can be found throughout 2021, along with a week-to-view format giving you plenty of room for daily commitments and helping you to stay organised throughout the year!.</p>
+                                  <p style="font-weight: bold;">Image Inside: </p>
+                                  <img  src="image/diaryproduct20.jpg" alt="">
+                                  <img src="image/diaryproduct21.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                  <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          </div>
+                    </td>
+                    <td>
+                        <div class="card" >
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" data-toggle="modal" data-target="#mymodal8" src="image/diaryproduct22.jpg">
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator grey-text text-darken-4">  Marvel Comics <br>   Official A5</span>
+                              <button class="btn btn-danger" data-toggle="modal" data-target="#mymodal">BUY</button>
+                            </div>
+                          </div>
+                          <div class="modal" id="mymodal8">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">  Marvel Comics Official A5s</h5>
+                                </div>
+                                <div class="modal-body">
+                                  <p><span style="font-weight: bold;">CODE</span>: 0005</p>
+                                  <p><span style="font-weight: bold;">Size</span>: 8*4</p>
+                                  <p><span style="font-weight: bold;">Price</span>: 75$</p>
+                                  <p> <span style="font-weight: bold;">Description</span>: <br> Whether you are young or old, this awesome Marvel Comics Official A5 Diary is a must for fans of this cult brand. The diary has a stylish gloss finish to the Avengers logo on the hardback front cover. The diary comes with a week-to-view layout and offers plenty of room for your daily notes and appointments helping you to stay organised throughout the year.</p>
+                                  <p style="font-weight: bold;">Image Inside: </p>
+                                  <img  src="image/diaryproduct23.jpg" alt="">
+                                  <img src="image/diaryproduct24.jpg" alt="">
+                                </div>
+                                <div class="modal-footer">
+                                  <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                          </div>
+                    </td>
+                </tr>
+            </table>
+                
+            <div class="modal" id="mymodal">
+                    <p>You bought successfully</p>
+                    <button class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>       
+            
+        </div>
+    </div>
+
+    </div>
+
+    <div class="title" style="margin-left:20px">
+        <h5>Why choose us?</h5>
+        <hr>
+    </div>
+    <!-- ---------------------title row 3 why choice us--------------------------- -->
+
+    <div class="row">
+        <div class="col-xs-12 col-md-4">
+            <table height="200px" >
+                <tr>
+                    <td style="color:crimson" width="95px">
+                    <i class="fa fa-truck fa-5x" aria-hidden="true"></i>
+                    </td>
+                    <td><h5>Fast Shipping</h5>
+                    <p>Delivery in 7 days.We are committed to no more than half an hour delay</p>
+                </tr>
+            </table height="200px" >
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <table height="200px" >
+                <tr>
+                    <td style="color:crimson" width="95px">
+                    <i class="fa fa-fighter-jet fa-5x" aria-hidden="true"></i>
+                    </td>
+                    <td><h5>Everywhere</h5>
+                    <p> Wherever you are, we still ship to your place.Don't mind geography</p>
+                </tr>
+            </table height="200px" >
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <table height="200px" >
+                <tr>
+                    <td style="color:crimson;padding-left:7px" width="95px">
+                    <i class="fa fa-star-o fa-5x" aria-hidden="true"></i>
+                    </td>
+                    <td><h5>Product quality</h5>
+                    <p>We promise you cannot find anywhere in the country that sells products better than We do.</p>
+            </table height="200px" >
+        </div>
+    </div>
+    <!-- -------------------------------row 1 why choice us---------------------------- -->
+
+    <div class="row">
+        <div class="col-xs-12 col-md-4">
+            <table height="200px" >
+                <tr>
+                    <td style="color:crimson" width="95px">
+                    <i class="fa fa-credit-card fa-5x" aria-hidden="true"></i>
+                    </td>
+                    <td><h5>Pay</h5>
+                    <p>Payment is convenient, easy and fast</p>
+                </tr>
+            </table height="200px" >
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <table height="200px" >
+                <tr>
+                    <td style="color:crimson;padding-left:10px" width="95px">
+                    <i class="fa fa-phone-square fa-5x" aria-hidden="true"></i>
+                    </td>
+                    <td><h5>24/7 customer support</h5>
+                    <p>Our support team is available 24/7</p>
+                </tr>
+            </table height="200px" >
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <table height="200px" >
+                <tr>
+                    <td style="color:crimson" width="95px">
+                    <i class="fa fa-comments-o fa-5x" aria-hidden="true"></i>
+                    </td>
+                    <td><h5>Guarantee</h5>
+                    <p>Damaged products during the warranty period can be taken to our center for free repair</p>
+                </tr>
+            </table height="200px" >
+        </div>
+    </div>
+  
+
+
+<footer>
+    <div class="container" style=" display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row; margin-left: 1em;">
+
+        <div class="sec aboutus">
+            <h5>Follow Us</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde excepturi adipisci minus accusantium doloremque eius nulla, consequatur,
+             sint molestias exercitationem culpa molestiae reprehenderit quidem possimus labore a, est optio debitis?</p>
+            <ul class="sci">
+            <li id="fb"><a href="#"><i class="fab fa-facebook" ></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram" ></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter" ></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        
+        <div class="sec aboutus">
+            <h5>Address</h5>
+            <div class="place">
+            <span class="fas fa-map-marker-alt"></span>
+            <span class="text" style="color: #999;">  Binh Duong , Di An</span>
+            </div>
+            <div class="place">
+            <span class="fas fa-phone-alt"></span>
+            <span class="text" style="color: #999;">  +848-262-0584</span>
+            </div>
+            <div class="place">
+            <span class="fas fa-envelope"></span>
+            <span class="text" style="color: #999;">  ryanacalendar@gmail.com</span>
+           </div>
+       </div>
+
+       <div style="margin-top: 2em;" class="sec aboutus">
+        <form>
+           <p style="font-weight: bolder; color: whitesmoke;">Comments: </p>
+           <textarea  cols="70" rows="70" style="width: 100%;height: 150px; background-color: white"></textarea>
+           <button type="submit" style="width: 70px;border-radius: 40px; background-color:white;height: 20px; ">
+             <i class="fa fa-check"></i> Send
+           </button>
+        </form>
+       </div>
+
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

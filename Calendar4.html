@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Duc Nam</title>
+<link rel="stylesheet" href="Calendar.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/boostrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+   <header>
+   <ul>
+    <a href="index.html" class="logo" style="margin-right: 300px;"> <i class="fa fa-calendar"> Ryana Calendars</i></a>
+      <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+      <li><a href="SignIn.html"> <i class="fa fa-user-circle"></i>  Sign In</a></li>
+      <li><a href="AboutUs.html"> <i class="fa fa-user"></i> About Us</a></li>
+      <li><a href="Contact.html"> <span class="far fa-map"></span>  Contact</a></li>
+  </ul>
+</header>
+
+ 
+    <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+            ];
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Orientation: 2,
+                $NoDrag: true
+              }
+            };
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+           
+        };
+    </script>
+    <style>
+       
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .jssora061 {display:block;position:absolute;cursor:pointer;}
+        .jssora061 .a {fill:none;stroke:#fff;stroke-width:360;stroke-linecap:round;}
+        .jssora061:hover {opacity:.8;}
+        .jssora061.jssora061dn {opacity:.5;}
+        .jssora061.jssora061ds {opacity:.3;pointer-events:none;}
+        
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
+   
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="image/xWF-142800_US_Fall_Cold_Weather_2020_CategoryPages_Calendars_Designs_2000x852.jpg.pagespeed.ic.cTQFmI78Xj.jpg" />
+                <div u="thumb">Calendar Products
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="image/WF-103149_US_Spring_2020_Calendars_Embellishments_2000x852.jpg" />
+                <div u="thumb">Calendar Products Model
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="image/bannersale11.webp" />
+                <div u="thumb">Diary Products 
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="image/bannersale10.jpg" />
+                <div u="thumb">Merry Christmas
+                </div>
+            </div>
+            <div>
+                <img data-u="image" src="image/bannersale8.jpg" />
+                <div u="thumb">Happy New Years
+                </div>
+            </div>
+        </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">image gallery</a>
+        <div u="thumbnavigator" style="position:absolute;bottom:0px;left:0px;width:980px;height:50px;color:#FFF;overflow:hidden;cursor:default;background-color:rgba(0,0,0,.5);">
+            <div u="slides">
+                <div u="prototype" style="position:absolute;top:0;left:0;width:980px;height:50px;">
+                    <div u="thumbnailtemplate" style="position:absolute;top:0;left:0;width:100%;height:100%;font-family:arial,helvetica,verdana;font-weight:normal;line-height:50px;font-size:16px;padding-left:10px;box-sizing:border-box;"></div>
+                </div>
+            </div>
+        </div>
+        <div data-u="arrowleft" class="jssora061" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <path class="a" d="M11949,1919L5964.9,7771.7c-127.9,125.5-127.9,329.1,0,454.9L11949,14079"></path>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora061" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <path class="a" d="M5869,1919l5984.1,5852.7c127.9,125.5,127.9,329.1,0,454.9L5869,14079"></path>
+            </svg>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();
+    </script>
+
+
+
+<div class="row">
+    <div class="col-md-3">
+      <div class="content-left">
+          <h5 class="title">Categories</h5>
+          <br>
+          <ul class="cate-nav" id="Categories">
+            <li class="far fa-check-circle fa-lg" style="margin-bottom: 1em;"><a href="Calendar.html">  Calendar</a></li>
+            <li class="far fa-circle fa-lg"><a href="Diary.html">   Diary</a></li>
+        </ul>
+        <br>
+        <h5>Filter by price</h5><br>
+        <ul class="price">
+            <li class="far fa-circle fa-lg"><a href="Calendar.html">  All Price </a> </li><br><br>
+            <li class="far fa-circle fa-lg"><a href="Calendar2.html">  10$-50$ </a></li><br><br>
+            <li class="far fa-circle fa-lg"><a href="Calendar3.html">  50$-100$ </a></li><br><br>
+            <li class="far fa-check-circle fa-lg"><a href="Calendar4.html">  100$-150$ </a></li><br><br>
+            <li class="far fa-circle fa-lg"><a href="Calendar5.html">  150$-200$ </a></li><br><br>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-md-9">
+        <div class="content-right">
+            <h5 class="title">Products: 100$-150$</h5>
+            <table>
+                <tr>
+                    <td>
+                      <div class="card" >
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" data-toggle="modal" data-target="#mymodal3" src="image/calendarproduct25.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Marvel <br> Calendar</span>
+                          <button class="btn btn-danger" data-toggle="modal" data-target="#mymodal">BUY</button>
+                        </div>
+                      </div>
+                      <div class="modal" id="mymodal3">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Marvel Super Hero</h5>
+                            </div>
+                            <div class="modal-body">
+                              <p><span style="font-weight: bold;">CODE</span>: 0003</p>
+                              <p><span style="font-weight: bold;">Size</span>: 8*4</p>
+                              <p><span style="font-weight: bold;">Price</span>: 120$</p>
+                              <p> <span style="font-weight: bold;">Description</span>: <br>For the superhero in your life, look no further than this Marvel Comics 2021 Official Desk Calendar. This retro-style calendar features anyone who is a part of the world of superheroes: Spiderman, Black Panther, The Hulk and Captain America to name a few. This Marvel Comics Official 2021 Desk Block features a self-standing easel which can be laid flat or at an angle on your desk for daily notes. This is a must for any Marvel fan as it is a fun way to personalise your desk at home or in the office.
+                                Calendar Club and our suppliers are continuously taking steps to decrease our environmental impact. This product comes in plastic free packaging, and has been manufactured in such a way to be as eco-friendly as possible.</p>
+                              <p style="font-weight: bold;">Image Inside: </p>
+                              <img  src="image/calendarproduct31.jpg" alt="">
+                              <img src="image/calendarproduct32.jpg" alt="">                              
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                    </td>
+                    <td>
+                      <div class="card" >
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" data-toggle="modal" data-target="#mymodal4" src="image/calendarproduct24.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Minecraft <br>Calendar</span>
+                          <button class="btn btn-danger" data-toggle="modal" data-target="#mymodal">BUY</button>
+                        </div>
+                      </div>
+                      <div class="modal" id="mymodal4">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Minecraft</h5>
+                            </div>
+                            <div class="modal-body">
+                              <p><span style="font-weight: bold;">CODE</span>: 0004</p>
+                              <p><span style="font-weight: bold;">Size</span>: 8*4</p>
+                              <p><span style="font-weight: bold;">Price</span>: 110$</p>
+                              <p> <span style="font-weight: bold;">Description</span>: <br> Explore, gather, build and battle your way through 2021 with this Minecraft Official Calendar. This game, known by many as the digital version of Lego, has become the best-selling video game of all time with over 200 million copies sold across all platforms, and with over 126 million active users every month! Your only limit is your imagination! Filled with fun and colourful images of all your favourite characters - including Steve, Alex, Skeletons, Endermen and more - this calendar will keep any gamer organised. Eat, sleep, game, repeat!</p>
+                              <p style="font-weight: bold;">Image Inside: </p>
+                              <img  src="image/calendarproduct33.jpg" alt="">
+                              <img src="image/calendarproduct34.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                    </td>
+                    <td>
+                      <div class="card" >
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" data-toggle="modal" data-target="#mymodal8" src="image/calendarproduct18.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">DC <br>Calendar</span>
+                          <button class="btn btn-danger" data-toggle="modal" data-target="#mymodal">BUY</button>
+                        </div>
+                      </div>
+                      <div class="modal" id="mymodal8">
+                            <div class="modal-header">
+                              <h5 class="modal-title">DC Super Heros</h5>
+                            </div>
+                            <div class="modal-body">
+                              <p><span style="font-weight: bold;">CODE</span>: 0005</p>
+                              <p><span style="font-weight: bold;">Size</span>: 8*4</p>
+                              <p><span style="font-weight: bold;">Price</span>: 120$</p>
+                              <p> <span style="font-weight: bold;">Description</span>: <br> The Justice League, belonging to DC Comics, is home to the worlds greatest superheroes and this retro Justice League Official 2021 Calendar includes artwork by Jim Lee and all the old favourites such as Batman, Superman, Wonder Woman and The Flash.</p>
+                              <p style="font-weight: bold;">Image Inside: </p>
+                              <img  src="image/calendarproduct41.jpg" alt="">
+                              <img src="image/calendarproduct42.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                    </td>
+                    <td>
+                      <div class="card" >
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" data-toggle="modal" data-target="#mymodal13" src="image/calendarproduct58.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Angels Calendar 2021</span>
+                          <button class="btn btn-danger" data-toggle="modal" data-target="#mymodal">BUY</button>
+                        </div>
+                      </div>
+                      <div class="modal" id="mymodal13">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Angels Calendar 2021</h5>
+                            </div>
+                            <div class="modal-body">
+                              <p><span style="font-weight: bold;">CODE</span>: 0005</p>
+                              <p><span style="font-weight: bold;">Size</span>: 8*4</p>
+                              <p><span style="font-weight: bold;">Price</span>: 120$</p>
+                              <p> <span style="font-weight: bold;">Description</span>: <br> Known for their protecting and guiding of humankind, these mythical, supernatural beings are commonly found throughout religious and spiritual beliefs. This Angels Calendar for 2021 features a variety of angelic illustrations, each month featuring a new classical piece of art underlined by religious quotes from some of the best known authors and philosophers..</p>
+                              <p style="font-weight: bold;">Image Inside: </p>
+                              <img  src="image/calendarproduct59.jpg" alt="">
+                              <img src="image/calendarproduct60.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                      <div class="card" >
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" data-toggle="modal" data-target="#mymodal14" src="image/calendarproduct61.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Kinkade Disney Dreams</span>
+                          <button class="btn btn-danger" data-toggle="modal" data-target="#mymodal">BUY</button>
+                        </div>
+                      </div>
+                      <div class="modal" id="mymodal14">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Kinkade Disney Dreams, Collector's Classics Official Deluxe Calendar 2021</h5>
+                            </div>
+                            <div class="modal-body">
+                              <p><span style="font-weight: bold;">CODE</span>: 0005</p>
+                              <p><span style="font-weight: bold;">Size</span>: 8*4</p>
+                              <p><span style="font-weight: bold;">Price</span>: 120$</p>
+                              <p> <span style="font-weight: bold;">Description</span>: <br> See your dreams come true and immerse yourself in a wonderfully magical world, where everything is possible with this Kinkade Disney Dreams, Collector's Classics Official Deluxe Calendar for 2021! From the Jungle Book to Pinocchio and Dumbo, this collection features the much-loved artwork of Thomas Kinkade and his studios, that brings our favourite Disney animations to life. Fans and collectors alike will treasure the enchanting scenes, that will allow you to relive all of your favourite childhood memories month after month!
+                                Also includes a ready-to-frame Lion King Return to Pride Rock collectable print.</p>
+                              <p style="font-weight: bold;">Image Inside: </p>
+                              <img  src="image/calendarproduct62.jpg" alt="">
+                              <img src="image/calendarproduct63.jpg" alt="">
+                              <img src="image/calendarproduct64.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                    </td>
+                    <td>
+                      <div class="card" >
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" data-toggle="modal" data-target="#mymodal15" src="image/calendarproduct65.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Disney <br>Dreams Official</span>
+                          <button class="btn btn-danger" data-toggle="modal" data-target="#mymodal">BUY</button>
+                        </div>
+                      </div>
+                      <div class="modal" id="mymodal15">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Disney Dreams Official Mini 2021</h5>
+                            </div>
+                            <div class="modal-body">
+                              <p><span style="font-weight: bold;">CODE</span>: 0005</p>
+                              <p><span style="font-weight: bold;">Size</span>: 8*4</p>
+                              <p><span style="font-weight: bold;">Price</span>: 120$</p>
+                              <p> <span style="font-weight: bold;">Description</span>: <br> Capture the timeless magic of a classic Disney story and its characters with this Kinkade, Disney Dreams Official Mini Calendar for 2021! From Aladdin to Dumbo and Mickey & Minnie, travel from one world more magical and enchanting to the next throughout the year with the full-colour illustrations by Thomas Kinkade. Whether you're in the 100-acre wood or the Bayou of New Orleans, this incredible collection will whisk you away to the setting of an iconic Disney film every day of the year!</p>
+                              <p style="font-weight: bold;">Image Inside: </p>
+                              <img  src="image/calendarproduct66.jpg" alt="">
+                              <img src="image/calendarproduct67.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                    </td>
+                    <td>
+                      <div class="card" >
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" data-toggle="modal" data-target="#mymodal16" src="image/calendarproduct68.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Kinkade, Reflections Scripture </span>
+                          <button class="btn btn-danger" data-toggle="modal" data-target="#mymodal">BUY</button>
+                        </div>
+                      </div>
+                      <div class="modal" id="mymodal16">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Kinkade, Reflections Scripture </h5>
+                            </div>
+                            <div class="modal-body">
+                              <p><span style="font-weight: bold;">CODE</span>: 0005</p>
+                              <p><span style="font-weight: bold;">Size</span>: 8*4</p>
+                              <p><span style="font-weight: bold;">Price</span>: 120$</p>
+                              <p> <span style="font-weight: bold;">Description</span>: <br> Escape reality and flee into the magical and enchanting world of Thomas Kinkade with this Kinkade, Reflections Scripture Collector's Edition Deluxe Calendar for 2021! From Reflections of Family to Everett's Cottage and Christmas Moonlight, this wonderful collection features some of Kinkade's most famous and inspirational artwork accompanied by King James Bible verses. Celebrate the Painter of Light and all that he stands for with this stunning selection of art!
+                                The calendar comes with a matching envelope, a hand-numbered certificate of authenticity and an extra print suitable for framing.!</p>
+                              <p style="font-weight: bold;">Image Inside: </p>
+                              <img  src="image/calendarproduct69.jpg" alt="">
+                              <img src="image/calendarproduct70.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                    </td>
+                    <td>
+                      <div class="card" >
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" data-toggle="modal" data-target="#mymodal18" src="image/calendarproduct77.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Star Wars, Classic </span>
+                          <button class="btn btn-danger" data-toggle="modal" data-target="#mymodal">BUY</button>
+                        </div>
+                      </div>
+                      <div class="modal" id="mymodal18">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Star Wars, Classic Official Calendar 2021</h5>
+                            </div>
+                            <div class="modal-body">
+                              <p><span style="font-weight: bold;">CODE</span>: 0005</p>
+                              <p><span style="font-weight: bold;">Size</span>: 8*4</p>
+                              <p><span style="font-weight: bold;">Price</span>: 115$</p>
+                              <p> <span style="font-weight: bold;">Description</span>: <br> George Lucas created the first Star Wars film in 1977, and from that point, the popularity of the Star Wars franchise has been arguably unmatched by any other. Featuring timeless characters such as Darth Vader, Princess Leia, Han Solo and Luke Skywalker, this Star Wars, Classic Official Calendar for 2021 will send you to a galaxy far, far away!</p>
+                              <p style="font-weight: bold;">Image Inside: </p>
+                              <img  src="image/calendarproduct78.jpg" alt="">
+                              <img src="image/calendarproduct79.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                    </td>
+                    <td>
+                      <div class="card" >
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" data-toggle="modal" data-target="#mymodal19" src="image/calendarproduct74.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">Taylor Swift  Calendar </span>
+                          <button class="btn btn-danger" data-toggle="modal" data-target="#mymodal">BUY</button>
+                        </div>
+                      </div>
+                      <div class="modal" id="mymodal19">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Taylor Swift Official Calendar </h5>
+                            </div>
+                            <div class="modal-body">
+                              <p><span style="font-weight: bold;">CODE</span>: 0005</p>
+                              <p><span style="font-weight: bold;">Size</span>: 8*4</p>
+                              <p><span style="font-weight: bold;">Price</span>: 115$</p>
+                              <p> <span style="font-weight: bold;">Description</span>: <br> Starting off in Nashville as a star of country music, songstress Taylor Swift just goes from strength to strength - indeed she's sold over 50 million albums world-wide and is one of the world's best selling music artists and highest earning musicians over the last decade. Enjoy a new picture of the singer performing live each month in this Taylor Swift Official Calendar!</p>
+                              <p style="font-weight: bold;">Image Inside: </p>
+                              <img  src="image/calendarproduct75.jpg" alt="">
+                              <img src="image/calendarproduct76.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>                        
+                    </td>
+                    <td>
+                      <div class="card" >
+                        <div class="card-image waves-effect waves-block waves-light">
+                          <img class="activator" data-toggle="modal" data-target="#mymodal20" src="image/calendarproduct71.jpg">
+                        </div>
+                        <div class="card-content">
+                          <span class="card-title activator grey-text text-darken-4">BTS, Bangtan Boys</span>
+                          <button class="btn btn-danger" data-toggle="modal" data-target="#mymodal">BUY</button>
+                        </div>
+                      </div>
+                      <div class="modal" id="mymodal20">
+                            <div class="modal-header">
+                              <h5 class="modal-title">BTS, Bangtan Boys Official </h5>
+                            </div>
+                            <div class="modal-body">
+                              <p><span style="font-weight: bold;">CODE</span>: 0005</p>
+                              <p><span style="font-weight: bold;">Size</span>: 8*4</p>
+                              <p><span style="font-weight: bold;">Price</span>: 115$</p>
+                              <p> <span style="font-weight: bold;">Description</span>: <br> South Korean boy band BTS has taken the world by storm and captured the hearts of millions of fans! Celebrate the icons of K-Pop and spend your year with Jin, Suga, J-Hope, RM, Jimin, V and Jungkook with this BTS, Bangtan Boys Official Calendar for 2021!!</p>
+                              <p style="font-weight: bold;">Image Inside: </p>
+                              <img  src="image/calendarproduct72.jpg" alt="">
+                              <img src="image/calendarproduct73.jpg" alt="">
+                            </div>
+                            <div class="modal-footer">
+                              <button class="btn btn-danger" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>                       
+                    </td>
+                </tr>
+            </table>
+            <div class="modal" id="mymodal">
+              <p>You bought successfully</p>
+              <button class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>       
+                
+                    
+        </div>
+    </div>
+
+
+    <div class="title" style="margin-left:20px">
+        <h5>Why choose us?</h5>
+        <hr>
+    </div>
+    <!-- ---------------------title row 3 why choice us--------------------------- -->
+
+    <div class="row">
+        <div class="col-xs-12 col-md-4">
+            <table height="200px" >
+                <tr>
+                    <td style="color:crimson" width="95px">
+                    <i class="fa fa-truck fa-5x" aria-hidden="true"></i>
+                    </td>
+                    <td><h5>Fast Shipping</h5>
+                    <p>Delivery in 7 days.We are committed to no more than half an hour delay</p>
+                </tr>
+            </table height="200px" >
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <table height="200px" >
+                <tr>
+                    <td style="color:crimson" width="95px">
+                    <i class="fa fa-fighter-jet fa-5x" aria-hidden="true"></i>
+                    </td>
+                    <td><h5>Everywhere</h5>
+                    <p> Wherever you are, we still ship to your place.Don't mind geography</p>
+                </tr>
+            </table height="200px" >
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <table height="200px" >
+                <tr>
+                    <td style="color:crimson;padding-left:7px" width="95px">
+                    <i class="fa fa-star-o fa-5x" aria-hidden="true"></i>
+                    </td>
+                    <td><h5>Product quality</h5>
+                    <p>We promise you cannot find anywhere in the country that sells products better than We do.</p>
+            </table height="200px" >
+        </div>
+    </div>
+    <!-- -------------------------------row 1 why choice us---------------------------- -->
+
+    <div class="row">
+        <div class="col-xs-12 col-md-4">
+            <table height="200px" >
+                <tr>
+                    <td style="color:crimson" width="95px">
+                    <i class="fa fa-credit-card fa-5x" aria-hidden="true"></i>
+                    </td>
+                    <td><h5>Pay</h5>
+                    <p>Payment is convenient, easy and fast</p>
+                </tr>
+            </table height="200px" >
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <table height="200px" >
+                <tr>
+                    <td style="color:crimson;padding-left:10px" width="95px">
+                    <i class="fa fa-phone-square fa-5x" aria-hidden="true"></i>
+                    </td>
+                    <td><h5>24/7 customer support</h5>
+                    <p>Our support team is available 24/7</p>
+                </tr>
+            </table height="200px" >
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <table height="200px" >
+                <tr>
+                    <td style="color:crimson" width="95px">
+                    <i class="fa fa-comments-o fa-5x" aria-hidden="true"></i>
+                    </td>
+                    <td><h5>Guarantee</h5>
+                    <p>Damaged products during the warranty period can be taken to our center for free repair</p>
+                </tr>
+            </table height="200px" >
+        </div>
+    </div>
+  
+
+
+<footer>
+    <div class="container" style=" display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row; margin-left: 1em;">
+
+        <div class="sec aboutus">
+            <h5>Follow Us</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde excepturi adipisci minus accusantium doloremque eius nulla, consequatur,
+             sint molestias exercitationem culpa molestiae reprehenderit quidem possimus labore a, est optio debitis?</p>
+            <ul class="sci">
+            <li id="fb"><a href="#"><i class="fab fa-facebook" ></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram" ></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter" ></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        
+        <div class="sec aboutus">
+            <h5>Address</h5>
+            <div class="place">
+            <span class="fas fa-map-marker-alt"></span>
+            <span class="text" style="color: #999;">  Binh Duong , Di An</span>
+            </div>
+            <div class="place">
+            <span class="fas fa-phone-alt"></span>
+            <span class="text" style="color: #999;">  +848-262-0584</span>
+            </div>
+            <div class="place">
+            <span class="fas fa-envelope"></span>
+            <span class="text" style="color: #999;">  ryanacalendar@gmail.com</span>
+           </div>
+       </div>
+
+       <div style="margin-top: 2em;" class="sec aboutus">
+        <form>
+           <p style="font-weight: bolder; color: whitesmoke;">Comments: </p>
+           <textarea  cols="70" rows="70" style="width: 100%;height: 150px; background-color: white"></textarea>
+           <button type="submit" style="width: 70px;border-radius: 40px; background-color:white;height: 20px; ">
+             <i class="fa fa-check"></i> Send
+           </button>
+        </form>
+       </div>
+
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

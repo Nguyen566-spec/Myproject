@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duc Nam</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/boostrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="AboutUs.css">
+</head>
+<body >    
+    <header>
+        <a href="index.html" class="logo"> <i class="fa fa-calendar"> Ryana Calendars</i></a>
+        <ul>
+            <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="SignIn.html"> <i class="fa fa-user-circle"></i>  Sign In</a></li>
+            <li><a href="AboutUs.html"> <i class="fa fa-user"></i> About Us</a></li>
+            <li><a href="Contact.html"> <span class="far fa-map"></span>  Contact</a></li>
+        </ul>
+    </header>
+    <script type="text/javascript">
+        window.addEventListener("scroll",function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky",window.scrollY > 0);
+        });
+    </script>
+    <section class="team" style="margin-bottom: 0px; ">
+        <div class="container" >
+            <h1>Our Team</h1>
+            <div class="row" style="display: flex;">
+                <div class="col-md-3 profile text-center" style="clear: both; ">
+                    <div class="img-box">
+                        <img src="image/duynghia.jpg" class="img-responsive">
+                    </div>
+                    <h2>Phan Duy Nghia</h2>
+                    <h3>DEV</h3>
+                    <ul>
+                        <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                        <a href="#"><li><i class="fa fa-instagram"></i></li></a>
+                        <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                    </ul>
+                </div>
+                <div class="col-md-3 profile text-center" style="clear: both; ;">
+                    <div class="img-box">
+                        <img src="image/130806264_217795233237654_8038280127679266515_n.jpg" class="img-responsive">
+                    </div>
+                    <h2>Nguyen Duc Nam</h2>
+                    <h3>DEV</h3>
+                    <ul>
+                        <a href="https://www.facebook.com/profile.php?id=100013866828863"><li><i class="fa fa-facebook"></i></li></a>
+                        <a href="#"><li><i class="fa fa-instagram"></i></li></a>
+                        <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                    </ul>
+                </div>
+                <div class="col-md-3 profile text-center" style="clear:both;">
+                    <div class="img-box">
+                        <img src="image/ducdung.jpg" class="img-responsive">
+                    </div>
+                    <h2>Nguyen Dung</h2>
+                    <h3>LEADER</h3>
+                    <ul>
+                        <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                        <a href="#"><li><i class="fa fa-instagram"></i></li></a>
+                        <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                    </ul>
+                </div>
+                <div class="col-md-3 profile text-center" style="clear: both; ">
+                    <div class="img-box">
+                        <img src="image/vanthuc.jpg" class="img-responsive">
+                    </div>
+                    <h2>Nguyen Van Thuc</h2>
+                    <h3>DEV</h3>
+                    <ul>
+                        <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+                        <a href="#"><li><i class="fa fa-instagram"></i></li></a>
+                        <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+                    </ul>                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container" style="display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;">
+            <div class="sec aboutus">
+                <h2>Follow Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde excepturi adipisci minus accusantium doloremque eius nulla, consequatur,
+                sint molestias exercitationem culpa molestiae reprehenderit quidem possimus labore a, est optio debitis?</p>
+                <ul class="sci">
+                <li id="fb"><a href="#"><i class="fab fa-facebook" ></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram" ></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter" ></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>            
+            <div class="sec aboutus">
+                <h2>Address</h2>
+                <div class="place">
+                <span class="fas fa-map-marker-alt"></span>
+                <span class="text" style="color: #999;">  Binh Duong , Di An</span>
+                </div>
+                <div class="place">
+                <span class="fas fa-phone-alt"></span>
+                <span class="text" style="color: #999;">  +848-262-0584</span>
+                </div>
+                <div class="place">
+                <span class="fas fa-envelope"></span>
+                <span class="text" style="color: #999;">  ryanacalendar@gmail.com</span>
+                </div>
+            </div>
+            <div style="margin-top: 2em;" class="sec aboutus">
+                <form>
+                    <p style="font-weight: bolder; color: whitesmoke;">Comments: </p>
+                    <textarea  cols="70" rows="10" style="width: 100%;"></textarea>
+                    <button type="submit" style="width: 70px;border-radius: 40px; background-color:white;height: 20px; ">
+                        <i class="fa fa-check"></i> Send
+                    </button>
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
