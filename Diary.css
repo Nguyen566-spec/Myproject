@@ -1,0 +1,188 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1338px;
+    display: grid;
+    align-items: center;
+}
+
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    z-index: 100000; 
+
+}
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    font-size:1.75em;
+    letter-spacing: 2px;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    font-size: 20px;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    font-size: 20px;
+    width: 100%;
+}
+header ul li a:hover{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    font-size: 20px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+header.sticky{
+    padding: 5px 100px;
+    background: white;
+}
+header.sticky .logo,
+header.sticky ul li a {
+    color: #000;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 25px 50px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .container .sec{
+    margin-right:30px;
+}
+footer .container .sec.aboutus{
+    width: 40%;
+}
+footer .container  .sec.aboutus h5{
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+footer .container  h5:before{
+    content:'';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+
+footer  p{
+    color: #999;
+}
+
+footer .container  .sec.aboutus span{
+    color: white;
+}
+.sci{
+    margin-top: 20px;
+    display: flex;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    color:white;
+}
+.sci li a:hover{
+    background: #f00;
+}
+.sci li a .fa{
+    color: #fff;
+    font-size:20px;
+}
+.content-left{
+    width: 440px;
+    float: left;
+}
+.content-left .cate-nav{
+    width: 200px;
+    padding:10px;
+}
+.content-left .cate-nav a{
+ color: crimson;
+ text-decoration: none;
+ height: 50px;
+}
+.content-left .cate-nav li{
+    width: 200px;
+}
+.content-left .cate-nav li:hover{
+    width: 200px;
+    background-color: darkgrey;
+}
+.far a{
+    color: crimson;
+    text-decoration: none;
+    width: 200px;
+    padding:10px;
+}
+.far a:hover{
+    color: crimson;
+    width: 200px;
+    background-color: grey;
+    padding:10px;
+}
+.content-right{
+    width: 900px;
+    float: right;
+}
+.card {
+    height: 350px;
+    width: 200px;
+}
